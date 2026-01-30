@@ -49,7 +49,7 @@ flowchart LR
     FAISS --> Retrieve[Top-K Chunks]
     Retrieve --> Prompt[RAG Prompt Builder]
 
-    Prompt --> LLM[LLM<br/>(Groq / Gemini)]
+    Prompt --> LLM[LLM- Groq or Gemini]
     LLM --> Answer[Final Answer]
 
     Answer --> UI
